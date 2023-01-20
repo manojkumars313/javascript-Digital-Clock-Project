@@ -71,19 +71,19 @@ function checkTime(i) {
 }
 
 function passvalue() {
-  var content = document.getElementById("option1").value;
-  localStorage.setItem("value", content);
+  var choice = document.getElementById("option1").value;
+  localStorage.setItem("value", choice);
   document.getElementById("f1").innerHTML = localStorage.getItem("value");
 
-  var content1 = document.getElementById("option2").value;
-  localStorage.setItem("value1", content1);
+  var choice1 = document.getElementById("option2").value;
+  localStorage.setItem("value1", choice1);
   document.getElementById("f2").innerHTML = localStorage.getItem("value1");
 
-  var content2 = document.getElementById("option3").value;
-  localStorage.setItem("value2", content2);
+  var choice2 = document.getElementById("option3").value;
+  localStorage.setItem("value2", choice2);
   document.getElementById("f3").innerHTML = localStorage.getItem("value2");
 
-  var content3 = document.getElementById("option4").value;
-  localStorage.setItem("value3", content3);
+  var choice3 = document.getElementById("option4").value;
+  localStorage.setItem("value3", choice3);
   document.getElementById("f4").innerHTML = localStorage.getItem("value3");
 }
