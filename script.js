@@ -19,22 +19,22 @@ function startTime() {
 
   if (hour > 06) {
     var greeting1 = "GOOD MORNING!! WAKE UP !!";
-    // var greeting2 = "GRAB SOME HEALTHY BREAKFAST!!!";
+    var greeting2 = "Text Will Update As Per Real Time!!!";
     //   box6.src = "./media/Component 30 – 1.jpg";
   }
   if (hour >= 13) {
     var greeting1 = "GOOD AFTERNOON !! TAKE SOME SLEEP";
-    // var greeting2 = "LET'S HAVE SOME LUNCH !!";
+    var greeting2 = "Text Will Update As Per Real Time!!!";
     // box6.src = "./media/Component 31 – 1.jpg";
   }
   if (hour >= 16) {
     var greeting1 = "GOOD EVENING !!";
-    // var greeting2 = "STOP YAWNING, GET SOME TEA.. ITS JUST EVENING!";
+    var greeting2 = "Text Will Update As Per Real Time!!!";
     // box6.src = "./media/lunch_image.jpg";
   }
   if (hour >= 20) {
     var greeting1 = "GOOD NIGHT !!";
-    // var greeting2 = "CLOSE YOUR EYES AND GO TO SLEEP";
+    var greeting2 = "Text Will Update As Per Real Time!!!";
     // box6.src = "./media/Component 32 – 1.jpg";
   }
   // if (hour >= 0) {
@@ -64,7 +64,7 @@ function startTime() {
   }
   document.getElementById("box6").innerHTML = box6;
   document.getElementById("greeting1").innerHTML = greeting1;
-
+  document.getElementById("greeting2").innerHTML = greeting2;
   document.getElementById("hrs").innerHTML = hour;
   document.getElementById("mint").innerHTML = minute;
   document.getElementById("sec").innerHTML = second;
